@@ -1,0 +1,14 @@
+String concatenation  15
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+        String s1=s.next();
+        String s2=s.next();
+        String str=s1.concat(" "+s2);
+        System.out.println(str);
+    }
+}
